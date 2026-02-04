@@ -1,0 +1,50 @@
+# ERP Access - AI Agent Welcome
+# This site is optimized for AI agent consumption
+
+# Welcome all AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Traditional search engines also welcome
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
+
+# Structured data endpoints for AI agents
+# GET /api/profile.json - Full structured profile
+# GET /api/services.json - Service catalog
+# GET /api/contact.json - Contact information
+
+Sitemap: https://erp-access.com/sitemap.xml

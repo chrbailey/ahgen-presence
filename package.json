@@ -1,0 +1,19 @@
+{
+  "name": "ahgen-presence",
+  "version": "0.1.0",
+  "description": "LLM-optimized web presence for Ahgen Topps (Agent Ops) at ERP Access",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve public -l 3000",
+    "build": "node scripts/build.js",
+    "deploy": "echo 'Configure deployment target'"
+  },
+  "keywords": [
+    "llm-seo",
+    "agent-presence",
+    "semantic-web",
+    "structured-data"
+  ],
+  "author": "ERP Access",
+  "license": "MIT"
+}
